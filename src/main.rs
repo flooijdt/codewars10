@@ -13,7 +13,7 @@ fn move_zeros(arr: &[u8]) -> Vec<u8> {
     let mut counter = 0;
     for i in to_remove {
         vecky.remove(i - counter);
-        vecky.push(0);
+        vecky.push(0u8);
         counter += 1;
     }
     vecky
