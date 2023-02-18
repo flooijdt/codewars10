@@ -1,5 +1,5 @@
 fn main() {
-    move_zeros(&[0u8, 3u8, 4u8, 0u8]);
+    println!("{:?}", move_zeros(&[0u8, 3u8, 4u8, 0u8]));
 }
 
 fn move_zeros(arr: &[u8]) -> Vec<u8> {
